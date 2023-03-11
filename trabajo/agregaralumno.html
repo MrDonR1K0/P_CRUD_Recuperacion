@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Agregar_Alumno</title>
+
+  </head>
+  <center>
+  <body bgcolor="lightblue" align="center" width="1000" cellpadding="10" cellspacing="10" border="3" >
+    <table align="center" width="600" border="1" cellpadding="10" bgcolor="white" >
+  <tr>
+	<td colspan="6" bgcolor="lightgreen" align="center"><h1>A&ntilde;adir Alumno</h1>
+  
+  
+    <form action="agregaralumno.php" method="post">
+	
+	<label for="name">Id :</label>
+      <input type="number" min="0" id="Idalumno" name="Idalumno"><br><br>
+	  	  
+      <label for="name">Nombre :</label>
+      <input type="text" autocomplete="off" id="Nombre" name="Nombre"><br><br>
+	  
+	  
+	  <label for="name">Apellidos :</label>
+      <input type="text" autocomplete="off" id="Apellidos" name="Apellidos"><br><br>
+
+	  <label for="name">Ciclo :</label>
+		<select name="Ciclo">
+					<option selected="selected"></option>
+					<option>ASIR</option>
+					<option>SMIR</option>
+					<option>DAW</option>
+					<option>DAM</option>
+				</select><br><br>
+	  
+	  <input type="submit" value="A&ntilde;adir datos" class="boton">
+	  <input type="reset" value="Borrar" class="boton" float="left">
+    </form>
+	<br>
+	<a href="principal.php" style="text-decoration: none;">Volver</a></td> 
+	</tr>
+	</table>
+	</body>
+	</center>
+  
+</html>
